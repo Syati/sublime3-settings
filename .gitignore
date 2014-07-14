@@ -1,0 +1,16 @@
+.DS_Store
+
+Package Control.last-run
+Package Control.system-ca-bundle
+*.cache
+encoding*
+
+### SublimeText ###
+# workspace files are user-specific
+
+*.sublime-workspace
+*.sublime-project
+
+#sftp configuration file
+sftp-config.json
+
