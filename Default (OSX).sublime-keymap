@@ -1,0 +1,27 @@
+[
+  { "keys": ["ctrl+x","l"], "command": "focus_side_bar" },
+  { "keys": ["ctrl+z"], "command": "undo" },
+  { "keys": ["alt+z"], "command": "redo" },
+
+  // isearch extend
+  //{"keys": ["ctrl+s"], "command": "show_panel", "args": {"panel": "find", "reverse": false} },
+  { "keys": ["ctrl+s"], "command": "find_next", "context":
+    [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]
+  },
+  { "keys": ["ctrl+r"], "command": "find_prev", "context":
+    [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]
+  },
+
+  // anything
+  { "keys": ["ctrl+t"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+  // dired up
+  { "keys": ["ctrl+x", "ctrl+f"], "command": "dired"},
+  {
+    "keys": ["b"],
+    "command": "dired_up",
+    "context": [
+      { "key": "selector", "operator": "equal", "operand": "text.dired" },
+      { "key": "setting.dired_rename_mode", "operand": false }
+    ]
+  },
+]

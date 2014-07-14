@@ -1,0 +1,23 @@
+{
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"ConvertToUTF8",
+		"dired",
+		"Emmet",
+		"FileBrowser",
+		"Predawn",
+		"QuickGotoAnything",
+		"SideBarEnhancements",
+		"sublemacspro",
+		"SublimeGit",
+		"Theme - Flatland",
+		"Theme - Phoenix",
+		"Theme - Soda SolarizedDark",
+		"Visual Studio Dark"
+	],
+	"repositories":
+	[
+		"https://github.com/grundprinzip/sublemacspro"
+	]
+}
